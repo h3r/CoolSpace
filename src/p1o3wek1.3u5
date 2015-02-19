@@ -1,0 +1,57 @@
+#include "World.h"
+#include "includes.h"
+#include "Game.h"
+#include <cassert>
+#include <algorithm>
+
+
+World::World(void){
+
+
+}
+
+
+World::~World(void){
+}
+
+void World::render(void){
+	std::vector<Entity*> * toRender;
+	int renders = children.size();
+
+	// Renderizar los que no tienen nigun flag
+	toRender = children["none"];
+	for (int i = 0; i< toRender->size(); i++){
+		toRender->at(i)->render();
+	}
+	
+}
+void World::update(double elapsed_time){
+	/*
+	for(int i = 0; i< children.size(); i++){
+		children[i]->update(elapsed_time);
+	}
+	*/
+}
+
+void World::addChild(Entity* ent){
+	ent->status = true;
+	ent->glSet = "none";
+	children["none"]->push_back(ent);
+}
+
+void World::addChild(Entity* ent, std::string glSets){
+	ent->status = true;
+	ent->glSet = glSets;
+	children[glSets]->push_back(ent);
+}
+
+void World::removeChild(Entity* ent){
+	std::vector<Entity *> * aux = children[ent->glSet];
+	ent->status = false;
+	for (int i = 0; i< aux->size(); i++){
+		if(aux->at(i) == ent){
+			aux->erase(aux->begin() + i);
+		return; //by this point ent is parentless and is not inside any entity now world. his children are still inside him however.
+		}
+	}
+}

@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\game.cpp" />
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\coldet\src\box.cpp">
+      <Filter>Extras\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\coldet\src\box_bld.cpp">
+      <Filter>Extras\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\coldet\src\coldet.cpp">
+      <Filter>Extras\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\coldet\src\coldet_bld.cpp">
+      <Filter>Extras\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\coldet\src\mytritri.cpp">
+      <Filter>Extras\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\coldet\src\sysdep.cpp">
+      <Filter>Extras\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\coldet\src\tritri.c">
+      <Filter>Extras\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\coldet\src\math3d.cpp">
+      <Filter>Extras\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Clipper\clipper.cpp">
+      <Filter>Extras\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Bullet.cpp">
+      <Filter>Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BulletManager.cpp">
+      <Filter>Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EntityMesh.cpp">
+      <Filter>Scenario\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Entity.cpp">
+      <Filter>Scenario\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ControllerManager.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EntityMovile.cpp">
+      <Filter>Scenario\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\camera.cpp">
+      <Filter>Scenario</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\framework.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mesh.cpp">
+      <Filter>Scenario\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rendertotexture.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shader.cpp">
+      <Filter>Scenario\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\texture.cpp">
+      <Filter>Scenario\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utils.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\text.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Controller.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Atlas.cpp">
+      <Filter>particulas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UIManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UIComponent.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ParticleManager.cpp">
+      <Filter>particulas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Emitter.cpp">
+      <Filter>particulas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Loader.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Menu.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Level1.cpp">
+      <Filter>Scenario</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Pause.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gameOver.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EntityBillBoard.cpp">
+      <Filter>Scenario\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gameWon.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\HowToPlay.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\game.h" />
+    <ClInclude Include="..\..\src\coldet\src\box.h">
+      <Filter>Extras\coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\coldet\src\coldet.h">
+      <Filter>Extras\coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\coldet\src\coldetimpl.h">
+      <Filter>Extras\coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\coldet\src\mytritri.h">
+      <Filter>Extras\coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\coldet\src\sysdep.h">
+      <Filter>Extras\coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\coldet\src\math3d.h">
+      <Filter>Extras\coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Clipper\clipper.h">
+      <Filter>Extras\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Bullet.h">
+      <Filter>Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Entity.h">
+      <Filter>Scenario\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EntityMesh.h">
+      <Filter>Scenario\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ControllerManager.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EntityMovile.h">
+      <Filter>Scenario\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\camera.h">
+      <Filter>Scenario</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\includes.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mesh.h">
+      <Filter>Scenario\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rendertotexture.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shader.h">
+      <Filter>Scenario\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\texture.h">
+      <Filter>Scenario\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\text.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Controller.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Atlas.h">
+      <Filter>particulas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Particle.h">
+      <Filter>particulas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\UIManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\UIComponent.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\UIElement.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ParticleManager.h">
+      <Filter>particulas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Emitter.h">
+      <Filter>particulas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\bass\c\bass.h">
+      <Filter>Extras\bass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\State.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Loader.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Menu.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Level1.h">
+      <Filter>Scenario</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Pause.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gameOver.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EntityBillBoard.h">
+      <Filter>Scenario\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BulletManager.h">
+      <Filter>Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gameWon.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\HowToPlay.h">
+      <Filter>states</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Bullets">
+      <UniqueIdentifier>{ab17f23d-714d-40f2-97de-c020e253ee8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenario">
+      <UniqueIdentifier>{3b8b857f-5294-49bb-94e8-91659bbc80ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras">
+      <UniqueIdentifier>{4bbac5fc-efc4-4d75-b516-99424cec5f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenario\Entity">
+      <UniqueIdentifier>{04e280c6-f9d6-4ae7-8a29-08af7891c10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{25b1ba56-7696-47e8-8c96-d579dcc40942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="particulas">
+      <UniqueIdentifier>{921112f7-efaa-486f-92aa-6c0777e31d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{9cb9549b-3f08-48ec-b276-2e1b34adcdfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="states">
+      <UniqueIdentifier>{baed2610-025d-477e-ba14-6e20d09522b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras\Clipper">
+      <UniqueIdentifier>{70be66a2-dbe9-4d6f-b4e4-f0a49fc3652f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras\coldet">
+      <UniqueIdentifier>{8156162c-653e-42be-9acd-af5f2042b84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras\bass">
+      <UniqueIdentifier>{0df68286-ea94-41eb-8664-cca2cc3f86ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="visualstudio1.rc">
+      <Filter>Extras</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\src\bass\c\bass.lib">
+      <Filter>Extras\bass</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\bass\bass.dll">
+      <Filter>Extras\bass</Filter>
+    </None>
+  </ItemGroup>
+</Project>
